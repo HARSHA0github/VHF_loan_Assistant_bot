@@ -12,10 +12,10 @@ if not defined JAVA_HOME (
 )
 
 echo [1/2] Starting Spring Boot Backend (Java 17+)...
-start "Loan Assistant Backend" cmd /k ".\mvnw spring-boot:run"
+start "Loan Assistant Backend" cmd /k "cd backend && .\mvnw spring-boot:run"
 
 echo [2/2] Starting React Frontend (Vite)...
-start "Loan Assistant Frontend" cmd /k "cd loan-buddy-frontend && (if not exist node_modules npm install) && npm run dev"
+start "Loan Assistant Frontend" cmd /k "cd frontend && (if not exist node_modules npm install) && npm run dev"
 
 echo.
 echo Both services are starting in separate windows!
