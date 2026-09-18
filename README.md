@@ -4,7 +4,7 @@ An intelligent, full-stack banking assistant application that streamlines the lo
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 The project is organized into dedicated directories for the backend, frontend, and database:
 
@@ -48,7 +48,7 @@ loanassistant_v3/
 
 ---
 
-## 🏗️ Tech Stack
+## Tech Stack
 
 - **Backend**: Java 17+, Spring Boot 3.3.4, Spring Data JPA, Hibernate, MySQL, OpenRouter AI, Zip4j, OpenCSV.
 - **Frontend**: React 18, TypeScript, Vite, Tailwind CSS, Framer Motion, Lucide Icons.
@@ -56,7 +56,7 @@ loanassistant_v3/
 
 ---
 
-## 📋 Prerequisites
+## Prerequisites
 
 Ensure you have the following installed:
 
@@ -69,7 +69,7 @@ Ensure you have the following installed:
 
 ---
 
-## ⚙️ Configuration & Setup
+## Configuration & Setup
 
 ### 1. Database Setup
 Ensure MySQL is running, then create the database:
@@ -109,7 +109,7 @@ DB_PASS=your_actual_mysql_password
 
 ---
 
-## 🚀 Running the Project
+## Running the Project
 
 ### Option A: One-Click Launch (Windows)
 Double-click or execute the root batch script:
@@ -146,7 +146,7 @@ npm run dev
 
 ---
 
-## 🚢 Pushing to GitHub
+## Pushing to GitHub
 
 ```bash
 # 1. Initialize git
